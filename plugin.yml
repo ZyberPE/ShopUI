@@ -1,0 +1,19 @@
+name: ShopUI
+main: ShopUI\Main
+version: 1.0.1
+api: 5.0.0
+author: ZyberPE
+
+depend:
+ - FormAPI
+ - EconomyAPI
+
+commands:
+  shopui:
+    description: Open the shop UI
+    usage: "/shopui"
+    permission: shopui.command
+
+permissions:
+  shopui.command:
+    default: true
