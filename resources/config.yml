@@ -1,0 +1,47 @@
+title: "Server Shop"
+
+messages:
+  prefix: "§8[§aShop§8] "
+
+  usage: "{prefix}Use /shopui"
+  player-only: "{prefix}Command only for players"
+
+  not-enough-money: "{prefix}§cYou don't have enough money!"
+  purchased: "{prefix}§aYou purchased {amount}x {item} for ${price}"
+  inventory-full: "{prefix}§cYour inventory is full!"
+
+sections:
+
+  blocks:
+    name: "Blocks"
+
+    items:
+
+      stone:
+        name: "Stone"
+        id: "stone"
+        amount: 64
+        price: 100
+
+      dirt:
+        name: "Dirt"
+        id: "dirt"
+        amount: 64
+        price: 50
+
+  ores:
+    name: "Ores"
+
+    items:
+
+      diamond:
+        name: "Diamond"
+        id: "diamond"
+        amount: 1
+        price: 500
+
+      iron:
+        name: "Iron Ingot"
+        id: "iron_ingot"
+        amount: 1
+        price: 100
